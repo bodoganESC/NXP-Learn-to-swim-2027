@@ -1,0 +1,32 @@
+# Medii virtuale Python
+venv/
+.venv/
+env/
+
+# Cache și fișiere compilate Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+
+# Binare C++ compilate local pentru pixy2sim (fiecare coleg le compilează pe OS-ul lui)
+*.so
+*.pyd
+*.o
+*.obj
+*.dll
+*.lib
+*.exp
+
+# Capturi de ecran și log-uri generate de simulator
+sim24/snap/
+snap/
+*.log
+
+# IDE-uri și sistem de operare
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
