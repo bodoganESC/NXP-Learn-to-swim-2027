@@ -20,10 +20,34 @@ build/
 *.lib
 *.exp
 
-# Capturi de ecran și log-uri generate de simulator
+# Capturi de ecran, imagini și log-uri generate de simulator
 sim24/snap/
 snap/
 *.log
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+*.webp
+*.svg
+
+# Documentație grea, datasheet-uri, arhive și fișiere Office (păstrați-le pe Google Drive)
+*.pdf
+*.doc
+*.docx
+*.xls
+*.xlsx
+*.ppt
+*.pptx
+*.zip
+*.7z
+*.rar
+*.tar
+*.gz
+
+# Excepție opțională: permite doar fișierele Markdown din docs/ (șterge linia dacă nu vrei)
+!docs/*.md
 
 # IDE-uri și sistem de operare
 .idea/
