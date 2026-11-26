@@ -12,7 +12,7 @@ Momentan suntem în faza de simulare (`sim24`): testăm detecția de traseu (seg
   * Transformarea segmentelor Pixy2 din pixeli în coordonate reale în metri (`cam_coord_to_orto_m`), clasificarea marginilor stânga/dreapta (inclusiv fallback pe o singură linie în curbele strânse `R170`) și detecția intersecțiilor / liniei de start.
 * **Octav** — *Control, Dinamică & Clasa Driver (`controller.py`, `DriverNxp2027`)*
   * Implementarea clasei proprii derivate din `Driver`, regulatorul PID de direcție, profilul adaptiv de viteză (accelerație pe linii drepte, frânare înainte de curbe) și oprirea la max. `10 cm` în fața cubului alb de final.
-* **Andrei** — *Particularizare Mecanică, Piste de Test & Telemetrie (`telemetry.py`, `carsim.py`, `VirtualCar`)*
+* **Andrei (rizzler)** — *Particularizare Mecanică, Piste de Test & Telemetrie (`telemetry.py`, `carsim.py`, `VirtualCar`)*
   * Configurarea parametrilor fizici ai mașinii și camerei în simulator, construirea pistelor de test (șicane, intersecții 45°/90°), logarea timpilor pe tur și organizarea testelor comparative.
 
 ---
