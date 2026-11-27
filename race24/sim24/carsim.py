@@ -839,11 +839,11 @@ class Sim(DynamicPhysicalModel):
         super(Sim, self).__init__()
         self.gl = Sim3DEnvironment(self, width, height, lightness, False)
         self.gl.track.draw()
-        """VirtualCar(self, DriverDizzy(self.gl.track.start) if 1 else DriverBlind(TrackRef((NxpTrack.TRACK_DEF,
+        '''VirtualCar(self, DriverDizzy(self.gl.track.start) if 1 else DriverBlind(TrackRef((NxpTrack.TRACK_DEF,
                                                                                           self.gl.track.start,
                                                                                           *tuple(itertools.chain(tuple((NxpTrack.deltas[x] for x in self.gl.track.path))*5))
                                                                                           ))
-                                                                                , max_speed_m_per_s), str(0))"""
+                                                                                , max_speed_m_per_s), str(0))'''
         # VirtualCar commented out because we want to use the TeamDriver instead of the default drivers. Keep for testing purposes.
         VirtualCar(self, TeamDriver(self.gl.track.start))
         self.slow_motion_scale = slow_motion_scale

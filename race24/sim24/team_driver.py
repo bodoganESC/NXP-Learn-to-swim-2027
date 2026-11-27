@@ -44,7 +44,7 @@ class TeamDriver(Driver):
 
         vector_info, lines_info, intersection_info = pixy2_info
 
-        target_x = self._compute_target_x(self, car, lines_info)
+        target_x = self._compute_target_x(car, lines_info)
 
         if target_x is not None:
             raw_curvature = -self.kp * target_x
