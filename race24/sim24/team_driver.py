@@ -1,3 +1,4 @@
+import math
 from model import Driver
 
 TRACK_WIDTH_M = 0.550   # Full track width in meters
